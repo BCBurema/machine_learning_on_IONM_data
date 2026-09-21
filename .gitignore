@@ -1,0 +1,21 @@
+# Data
+*.npy
+*.pkl
+*.csv
+data_encoder/
+loaded_data/
+preprocessed_data/
+results_*/
+tsfresh_features/
+tsfresh_features_outcomes/
+*.png
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor and system
+.vscode/
+.DS_Store
+Thumbs.db
+
