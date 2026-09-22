@@ -11,6 +11,7 @@ This project consists of two main parts
 
 **Repository structure**
 The repository consists of three folders.
+
 **1. preprocessing**
    Contains the preprocessing pipeline that transforms raw motor evoked potentials (MEPs) into preprocessed MEPs. The resulting files can be used as input for both the supervised machine learning and contrastive learning approaches below.
 
