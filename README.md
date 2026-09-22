@@ -57,7 +57,7 @@ The repository consists of three folders.
    --dashboard (flag): whether to create and show the IONM Alarm Dashboard (default: off)
 
    Required adjustments:
-   - paths (lines 70-74,): update the paths to match your local setup.
+   - paths (lines 70-74): update the paths to match your local setup.
      
    Optional adjustments:
    - visualization (lines 124-135): choose between t-SNE and UMAP, and select the type of coloring.
