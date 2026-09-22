@@ -37,7 +37,7 @@ The repository consists of three folders.
    run_name (str): name of the folder for saving the model, representations, and outputs (required)
    dataset (str): either 'leg' or 'foot' (required)
 
-   --gpu (int or str): GPU no. used for training (use 'cpu' to run on CPU) (default: 'cpu')
+   --gpu (int or str): GPU no. used for training (use 'cpu' to run on CPU) (default: 'cpu')\\
    --batch-size (int): batch size used for training (default: 8)
    --lr (float): learning rate (default: 0.001)
    --repr_dims (int): representation dimension (default: 320)
