@@ -69,8 +69,8 @@ if __name__ == '__main__':
 
     # Paths
     BASE_DIR          = './output/'                                 # Define your own folder here
-    data_encoder_path = BASE_DIR / 'data_encoder'
-    save_path         = BASE_DIR / 'results_contrastive_learning'
+    data_encoder_path = BASE_DIR + r'\data_encoder'
+    save_path         = BASE_DIR + r'\results_contrastive_learning'
     alarm_path        = os.path.join(save_path, 'alarming')
 
     data_paths        = {
@@ -415,7 +415,7 @@ if __name__ == '__main__':
     if args.dashboard:
         # Create dashboard
         # Also retrieve preprocessed MEPs to visualize the timeseries within the IONM Alarm Dashboard
-        preprocessed_data_path  = BASE_DIR / 'preprocessed_data'
+        preprocessed_data_path  = BASE_DIR + r'\preprocessed_data'
         alarm_path              = os.path.join(save_path, 'alarming')
         app                     = create_app(alarm_path, preprocessed_data_path, args.dataset)
         print('IONM alarm dashboard on http://localhost:8050')
